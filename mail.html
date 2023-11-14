@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email Template</title>
+</head>
+<style>@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;700&display=swap');
+* {font-family: 'Manrope', sans-serif;}
+
+</style>
+<body style="background-color: #EDEDED; font-family: Arial, sans-serif;">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color: #EDEDED;">
+    <tr>
+      <td align="center" valign="top" style="padding: 0px;">
+        <table width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #EDEDED; ">
+          <tr>
+            <td align="center" valign="top" style="padding: 20px;">
+              <table width="600" cellspacing="0" cellpadding="0" border="0" style="background-color: #ffffff; position: relative;border-radius: 20px; "> <!-- Добавлено position: relative -->
+                <!-- Шапка письма с изображением -->
+                <tr>
+                  <td style="text-align: center; padding-bottom: 20px;">
+                    <img src="header.svg" alt="Header Image" width="600" height="330" style="display: block;">
+                  </td>
+                </tr>
+                <!-- Заголовок и вступительный текст -->
+                <tr>
+                  <td style="position: absolute; top: 290px; left: 20px; right: 20px;"> <!-- Изменены значения top и добавлено position: absolute -->
+                    <h1 style="font-size: 20px; font-weight: 700; color: #000000; margin: 0;">Здравствуйте!</h1>
+                    <p style="font-size: 14px; font-weight: 400; color: #000000;">Спасибо, что поддерживаете DevOps-комьюнити. Мы тоже стараемся сделать для IT-рынка Казахстана максимум и хотим познакомиться
+                      с вами поближе.</p>
+                  </td>
+                </tr>
+          <!-- Секция "Кто мы такие" -->
+          <tr>
+            <td style="padding: 20px 20px 0px 20px;">
+              <h2 style="font-size: 18px; font-weight: 700; padding-top: 20px;">Кто мы такие</h2>
+              <p style="font-size: 14px; font-weight: 400;">Компания Core 24/7 ускоряет создание цифровых продуктов и проектирует приложения, которые используют более 5 миллионов пользователей ежедневно. У нас есть опыт, и мы рады им поделиться.</p>
+            </td>
+          </tr>
+          <!-- Бренды -->
+          <tr>
+            <td style="padding: 0px 20px 0px 20px;">
+              <h3 style="font-size: 14px; font-weight: 700;">Свои системы нам доверили:</h3>
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <!-- Вставьте URL изображений брендов -->
+                  <td align="center"><img src="brand-1.svg" alt="Brand 1" width="83"></td>
+                  <td align="center"><img src="brand-2.svg" alt="Brand 2" width="123"></td>
+                  <td align="center"><img src="brand-3.svg" alt="Brand 3" width="92"></td>
+                  <td align="center"><img src="brand-4.svg" alt="Brand 4" width="83"></td>
+                  <td align="center"><img src="brand-5.svg" alt="Brand 5" width="88"></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- Предложения -->
+          <tr>
+            <td style="padding: 0px 20px 0px 20px;"> <!-- Уменьшен нижний отступ -->
+              <h3 style="font-size: 14px; font-weight: 700;">…и у нас для вас 3 win-win предложения</h3>
+              <h2 style="font-size: 18px; font-weight: 700; margin-top: 40px; margin-bottom:0px">Прокачивайтесь с нами</h2> <!-- Уменьшен верхний отступ -->
+            </td>
+          </tr>
+          <!-- Блоки предложений -->
+          <tr>
+            <td>
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="50%" style="padding: 10px 20px;">
+                    <p style="font-size: 13px;"><B>Чтобы быть в курсе новостей о DevOps,</B> полезных инструментах и гайдах, подписывайтесь на TG-канал KazDevOps. Пишем для новичков, мидлов и сеньоров.</p>
+                    <img src="kazdevops.svg" alt="DevOps" width="146" style="display: block; padding-bottom: 20px;">
+                    <a href="subscription_link" style="background-color: #000000; color: #ffffff; padding: 10px 20px; text-decoration: none; border-radius: 30px; display: inline-block; font-size: 13px;">Подписаться</a>
+                  </td>
+                  <td width="50%" style="padding: 10px 20px;">
+                    <p style="font-size: 13px; margin-bottom: 10px;"><b>Чтобы развиваться в профессии,</b> посмотрите курсы от Слёрм. Подписчикам TG-канала — скидка. А оплатить обучение можно в рассрочку от Kaspi.</p>
+                    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; padding-bottom: 40px;">
+                      <tr >
+                        <td style="padding: 0 5px;"><img src="slurm.svg" alt="Slerm" width="78" style="display: block;"></td>
+                        <td style="padding: 0 5px;"><img src="kaspi.svg" alt="Kaspi" width="78" style="display: block;"></td>
+                      </tr>
+                    </table>
+                    <a href="courses_link" style="background-color: #000000; color: #ffffff; padding: 10px 20px; text-decoration: none; border-radius: 30px; display: inline-block; font-size: 13px; margin-top: 10px;">Посмотреть курсы</a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- Партнерская программа -->
+          <tr>
+            <td style="padding: 20px; text-align: left;">
+              <p style="font-size: 13px"><b>Чтобы зарабатывать вместе с нами,</b>становитесь партнёрами: рекомендуйте нас потенциальным клиентам — и получайте<b>от 10% за сделку.</b></p>
+              <ul style="font-size: 13px;">
+                <li>Выплаты по факту каждого транша приведенного клиента</li>
+                <li>450 000 ₸ — средний доход партнёра за сделку</li>
+                <li>Минимум вашего участия в сделках</li>
+              </ul>
+              <p style="font-size: 13px;">5 партнёров уже заработали <b>10+ млн ₸ с сентября.</b></p>
+              <a href="partnership_link" style="background-color: #000000; color: #ffffff; padding: 10px 20px; text-decoration: none; border-radius: 30px; display: inline-block; font-size: 13px;">Узнать больше</a>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
